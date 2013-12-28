@@ -1,0 +1,8 @@
+import nltk
+
+sentence = """Ha ha ha, hahaha"""
+tokens = nltk.word_tokenize(sentence)
+tokens
+
+tagged = nltk.pos_tag(tokens)
+tagged[0:6]
