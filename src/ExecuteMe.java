@@ -2,7 +2,7 @@ import java.io.File;
 
 
 public class ExecuteMe {
-	public static String target = "";
+	public static String target;
 	public static void main(String[] args) {
 		String rootDir = "/usr/groups/corpora-cds/bnc-xml/Texts/";
 		target = args[0];

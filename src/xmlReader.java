@@ -95,7 +95,7 @@ public class xmlReader {
 				//System.out.println(currNode.getFirstChild().toString());
 				//System.out.println(currNode.getFirstChild().getNodeValue());
 				//System.out.println(((Element)currNode).getAttribute("hw"));
-				if(((Element)currNode).getAttribute("hw").equals(target)){
+				if(((Element)currNode).getAttribute("hw").equals(target) && ((Element)currNode).getAttribute("pos").equals("VERB")){
 				//if(currNode.getNodeName() == "w" ) {
 					//System.out.println(((Element)currNode).getAttribute("hw").compareToIgnoreCase(target) == 0);
 					flag = true;
